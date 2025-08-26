@@ -33,5 +33,6 @@ public class PATTERNS {
                 }
             System.out.println();
         }
+        System.out.println("<--------------------------------------------->");
     }
 }
