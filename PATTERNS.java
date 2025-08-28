@@ -41,10 +41,9 @@ public class PATTERNS {
         {
             System.out.println(count);
         }
-        else
-        {
-            System.out.println("COMPILATION ERROR");
-        }
+        
+        System.out.println("<--------------------------------------------->");
+
     }
 }
 
