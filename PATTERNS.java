@@ -34,5 +34,17 @@ public class PATTERNS {
             System.out.println();
         }
         System.out.println("<--------------------------------------------->");
+
+        boolean x=false;
+        int count=0;
+        if(x & (++count > 0))
+        {
+            System.out.println(count);
+        }
+        else
+        {
+            System.out.println("COMPILATION ERROR");
+        }
     }
 }
+
