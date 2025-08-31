@@ -1,4 +1,4 @@
-public class PATTERNS {
+public class ADVANCED_PATTERNS {
     public static void main(String[] args) {
         System.out.println("1.BUTTERFLY PATTERN");
         int n = 4;
@@ -12,7 +12,7 @@ public class PATTERNS {
                 System.out.print("  ");
             }
             for (int j = 1; j <=i; j++) {
-                System.out.print("* ");
+                System.out.print(" *");
             }
             System.out.println();
         }
@@ -29,12 +29,10 @@ public class PATTERNS {
                 }
                 for(int j=1;j<=i;j++)
                 {
-                    System.out.print("* ");
+                    System.out.print(" *");
                 }
             System.out.println();
         }
-        System.out.println("<--------------------------------------------->");
-         
+        System.out.println("<------------------------------------------------>");
     }
 }
-
