@@ -34,5 +34,19 @@ public class ADVANCED_PATTERNS {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
+
+        System.out.println("2.SOLID RHOMBUS");
+        int n1 = 5;
+        for (int i = 1; i <= n1; i++) {
+            int spaces = n1- i;
+            for (int j = 1; j <= spaces; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= n1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println("<------------------------------------------------>");
     }
 }
