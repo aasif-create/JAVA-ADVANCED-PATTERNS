@@ -34,7 +34,6 @@ public class ADVANCED_PATTERNS {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-
         System.out.println("2.SOLID RHOMBUS");
         int n1 = 5;
         for (int i = 1; i <= n1; i++) {
@@ -48,9 +47,8 @@ public class ADVANCED_PATTERNS {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-    
 
-System.out.println("3.NUMBER PYRAMID");
+        System.out.println("3.NUMBER PYRAMID");
         int n2=6;
         for(int i=1 ; i<=n2 ;i++)
         {
@@ -68,5 +66,27 @@ System.out.println("3.NUMBER PYRAMID");
         }
         System.out.println("<------------------------------------------------>");
 
+        System.out.println("4.PALINDROMIC PATTERN");
+        int n3=5;
+        for(int i=1 ;i<=n3 ;i++)
+        {
+            for(int j=1 ;j<=n3-i;j++)
+            {
+                System.out.print("  ");
+            }
+            for(int j=i;j>=1;j--)
+            {
+                System.out.print(j+" ");
+            }
+            for(int j=2 ;j<=i;j++)
+            {
+                System.out.print(j+" ");
+            }
+            System.out.println();
+
+        }
+
+
     }
-}
+
+    }
