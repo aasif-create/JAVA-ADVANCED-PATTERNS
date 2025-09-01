@@ -6,7 +6,6 @@ public class ADVANCED_PATTERNS {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
-
             int spaces = 2 * (n - i);
             for (int j = 1; j <=spaces; j++) {
                 System.out.print("  ");
@@ -16,12 +15,10 @@ public class ADVANCED_PATTERNS {
             }
             System.out.println();
         }
-
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
-
                 int spaces=2*(n-i);
                 for(int j=1; j<=spaces;j++)
                 {
@@ -47,7 +44,6 @@ public class ADVANCED_PATTERNS {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-
         System.out.println("3.NUMBER PYRAMID");
         int n2=6;
         for(int i=1 ; i<=n2 ;i++)
