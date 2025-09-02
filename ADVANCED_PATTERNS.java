@@ -121,10 +121,7 @@ public class ADVANCED_PATTERNS {
             }
             System.out.println();
         }
-
         }
-
-
     }
 
     
