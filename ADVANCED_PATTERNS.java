@@ -45,7 +45,7 @@ public static void main(String[] args) {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-        
+
         System.out.println("3.NUMBER PYRAMID");
         int n2=6;
         for(int i=1 ; i<=n2 ;i++)
@@ -62,6 +62,7 @@ public static void main(String[] args) {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
+        
         System.out.println("4.PALINDROMIC PATTERN");
         int n3=5;
         for(int i=1 ;i<=n3 ;i++)
