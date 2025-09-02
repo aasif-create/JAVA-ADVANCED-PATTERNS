@@ -62,7 +62,7 @@ public static void main(String[] args) {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-        
+
         System.out.println("4.PALINDROMIC PATTERN");
         int n3=5;
         for(int i=1 ;i<=n3 ;i++)
@@ -82,6 +82,7 @@ public static void main(String[] args) {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
+        
         System.out.println("5.DIAMOND PATTERN");
         int n4=4;
         for(int i =1; i<=n4 ; i++)
