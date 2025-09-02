@@ -87,5 +87,44 @@ public class ADVANCED_PATTERNS {
         }
         System.out.println("<------------------------------------------------>");
 
+        System.out.println("5.DIAMOND PATTERN");
+        int n4=4;
+        for(int i =1; i<=n4 ; i++)
+        {
+            for(int j=1 ;j<=n4-i;j++)
+            {
+                System.out.print("  ");
+            }
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print("*"+" ");
+            }
+            for(int j=2;j<=i;j++)
+            {
+                System.out.print("*"+" ");
+            }
+            System.out.println();
+        }
+        for(int i =n4; i>=1 ; i--)
+        {
+            for(int j=1 ;j<=n4-i;j++)
+            {
+                System.out.print("  ");
+            }
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print("*"+" ");
+            }
+            for(int j=2;j<=i;j++)
+            {
+                System.out.print("*"+" ");
+            }
+            System.out.println();
+        }
+
+        }
+
+
     }
-}
+
+    
