@@ -159,5 +159,22 @@ public static void main(String[] args) {
             }
             System.out.println("<------------------------------------------------>");
             System.out.println("8.PASCAL'S TRIANGLE");
+            int n7=5;
+            int num=1;
+             for(int i=1 ;i<=n7;i++)
+             {
+                 for(int j=1;j<=n7-i;j++)
+                 {
+                     System.out.print("-");
+                 }
+                 for(int j=1;j<=i;j++) {
 
+                     {
+                         System.out.print(j+" ");
+                     }
+                 }
+                 System.out.println();
+             }
+
+        }}
         }}
