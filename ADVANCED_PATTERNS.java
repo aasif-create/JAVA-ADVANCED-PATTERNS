@@ -117,6 +117,30 @@ public static void main(String[] args) {
             }
             System.out.println();
         }
+        System.out.println("<------------------------------------------------>");
+        System.out.println("5.HOLLOW BUTTERFLY PATTERN");
+        int n5 = 4;
+        int m1 = 5;
+        for (int i = 1; i < n5; i++) {
+            for (int j = 1; j <= m1; j++) {
+                if (j == 1 || j == m1|| (i != n  && (j == i || j == m1- i + 1))) {
+                    System.out.print("*" + " ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+        for (int i = n5; i >= 1; i--) {
+            for (int j = 1; j <= m1; j++) {
+                if (j == 1 || j == m1 || (i != n  && (j == i || j == m1 - i + 1))) {
+                    System.out.print("*" + " ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+
         }
     }
-    
+}
