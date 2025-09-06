@@ -118,7 +118,7 @@ public static void main(String[] args) {
             System.out.println();
         }
         System.out.println("<------------------------------------------------>");
-        System.out.println("5.HOLLOW BUTTERFLY PATTERN");
+        System.out.println("6.HOLLOW BUTTERFLY PATTERN");
         int n5 = 4;
         int m1 = 5;
         for (int i = 1; i < n5; i++) {
