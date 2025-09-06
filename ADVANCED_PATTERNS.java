@@ -193,6 +193,17 @@ public static void main(String[] args) {
                 }
                 System.out.println();
             }
+            System.out.println("<------------------------------------------------>");
+            System.out.println("10.INVERTED PYRAMID");
+             int n9=5;
+             for(int i=1 ; i<=n ;i++)
+             {
+                 for(int j=1 ;j<=n9-i;j++)
+                 {
+                     System.out.print(i);
+                 }
+                 System.out.println();
+             }
             }
 
         }
